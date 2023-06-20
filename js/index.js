@@ -29,7 +29,7 @@ const scale = (num, in_min, in_max, out_min, out_max) =>{
 
 // scroll
 let pochAmount = document.getElementsByClassName('main-content-footer')[0].getElementsByTagName('h1')[0];
-let pochInt = 0;
+let pochInt = 3;
 
 function scrollDownOnce(){
     // console.log('Scroll')
@@ -80,7 +80,7 @@ const togleOn = Hambugger.addEventListener('click', function(){
     // for(i = 0; i < buggers.length; i++){
     //     buggers[i].classList.toggle('show-up')
     // }
-    console.log("go")
+    
 })
 
 
@@ -91,14 +91,12 @@ const navLink = document.getElementsByClassName('Nav-links');
 for(i = 0; i < navLink.length; i++){
     // console.log(navLink[i])
     navLink[i].addEventListener('click', function(event){
-        console.log(event)
+  
         navDropDown.classList.remove('active')
 
     })
 }
 
-
-console.log(navLink)
 
 // scroll to the top icon
 const ArowBtn = document.getElementsByClassName('arow-up')[0];
