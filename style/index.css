@@ -1260,4 +1260,7 @@ footer .container {
         /* padding: 10px 10px;
         flex-basis: 100% !important; */
     }
+    .arow-up {
+        left: 300px !important;
+    }
 }
