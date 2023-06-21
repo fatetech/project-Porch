@@ -1232,7 +1232,6 @@ footer .container {
 @media (max-width:375px) {
     .about-content-head-info{
         align-items:flex-end ;
-        border: 1px solid red;
     }
     .about-content-head-info .info h3 {
         font-size: 15px !important;
