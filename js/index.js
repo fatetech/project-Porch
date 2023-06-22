@@ -34,7 +34,7 @@ let pochInt = 3;
 function scrollDownOnce(){
     // console.log('Scroll')
     pochInt++;
-    pochAmount.innerHTML= `${pochInt}$ Billons`
+    pochAmount.innerHTML= `$${pochInt} Billions`
     if(pochInt > 9){
         window.removeEventListener("scroll", scrollDownOnce)
     }
